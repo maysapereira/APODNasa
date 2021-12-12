@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100;300&display=swap');
+
+ body{
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ header{
+    width: 100%;
+    height: 20vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ main{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 2%;
+ }
+ 
+ section{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: pink;
+ }
+ 
+ section input{
+    width: 300px;
+    font-size: 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+ 
+ section button{
+    width: 100px;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+
+ }
+ 
+ #info-apod{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 1%;
+ }
+ 
+ #info-apod img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ #info{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+ }
+ 
+ #info h1{
+    font-size: 30px;
+    color: black;
+ }
+ 
+ #info p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+ footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: pink;
+    color:black;
+ }
